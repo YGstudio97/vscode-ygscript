@@ -1,0 +1,66 @@
+
+type{
+    1: [string]
+    2: [integer]
+    3: [character]
+    4: [boolean]
+    5: [double]
+    6: [Floating]
+    7: [object]
+    8: [null]
+    9: [class]
+}
+
+//shorter from
+string as str
+integer as int
+character as char
+boolean as bool 
+float as float
+double as double
+object as obj 
+null as null 
+
+
+type[int] size(
+    8
+    16
+    32
+    64
+    128
+    256
+    512
+)
+type[char] size(
+    8
+    16
+    32
+    64
+    128
+    256
+    512
+)
+type[float] size(
+    8
+    16
+    32
+    64
+    128
+    256
+    512
+)
+type[double] size(
+    8
+    16
+    32
+    64
+    128
+    256
+    512
+)
+type[bool] size(
+    8
+    16
+    32
+    64
+)

@@ -1,0 +1,32 @@
+
+
+// Regular function
+fnc Add(x: int32, y: int32) -> int32 {
+    return x + y
+}
+
+// Function with conditional logic
+fnc Max(a: int32, b: int32) -> int32 {
+    if a > b {
+        return a
+    } else {
+        return b
+    }
+}
+
+// Generic function
+fnc Div<T>(x: T, y: T) -> T {
+    return x / y
+}
+
+fnc Main(){
+
+    let sum = Add(5, 10)
+    let quotient = Div(10.0, 2.0)
+    let max = Max(5, 10)
+
+    show(I"Sum: {sum}, Quotient: {quotient}, Max: {max}")
+
+    return 0
+}
+

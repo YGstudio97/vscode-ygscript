@@ -1,0 +1,44 @@
+
+loop list = {
+    for 
+    while
+    agin
+    do-while
+}
+
+:struct: for
+
+for (initialization, condition, update) {
+    // Body of the loop (code to be executed)
+}
+
+:struct: while
+while (condition) {
+    // Loop Body: Code to execute
+    // Update expression
+}
+
+:truct: do-while
+do {
+    // Body of the loop (Code to be executed)
+    // Update expression (e.g., increment/decrement)
+} while (condition)
+
+:struct: agin
+agin(times, update){
+    // Update expression
+}
+
+// update is default value false
+
+exampl[agin]
+
+agin(5){
+    show("hello, world")
+}
+
+int i
+agin(5, true){
+    show(i)
+    i++
+}

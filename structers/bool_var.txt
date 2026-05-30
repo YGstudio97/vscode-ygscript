@@ -1,0 +1,16 @@
+// Boolean types
+bool8 value    // 1 byte
+bool16 value   // 2 bytes
+bool32 value   // 4 bytes
+bool64 value   // 8 bytes
+bool128 value  // 16 bytes
+bool256 value  // 32 bytes
+bool512 value  // 64 bytes
+
+// Universal boolean type
+bool value     // 1 byte
+
+// Boolean literals
+let value = true    // bool
+let value = false   // bool
+

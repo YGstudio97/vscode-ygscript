@@ -1,0 +1,19 @@
+
+// Import package
+add "Math"
+
+// Import a package with an alias
+add "Math" -as "m"
+
+// Import all items from a package
+add "Math" *
+
+// Import specific items from a package
+from "Math" -add "Sin";
+
+// Import multiple specific items from a package
+from "Math" -add ( "Sin", "Cos" )
+
+// Import specific item from a package with an alias
+from "Math" -add "Cos" as "Cosine"
+

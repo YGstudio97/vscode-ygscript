@@ -1,0 +1,72 @@
+
+condition list = {
+    if
+    eif
+    else
+    incase
+    when
+    though
+}
+
+:struct: if/eif/else
+
+//only if
+if(condition){
+    code_Block
+    // Runs if condition is true
+}
+
+//with else
+if(condition){
+    code_Block
+    // Runs if condition is true
+
+} else {
+    code_Block
+    // Runs if all conditions are false
+}
+
+//use if multitime use eif=elseif
+if(condition1){
+    // Runs if condition1 is true
+}
+eif(condition2){
+    // Runs if condition1 is false
+    // and condition2 is true
+}
+eif(condition3){
+    // Runs if previous conditions are false
+    // and condition3 is true
+}
+else{
+    // Runs if all conditions are false
+}
+
+:struct:incase
+
+incase (expression) {
+    case value1:
+        // Code executed if expression equals value1
+        break
+    case value2:
+        // Code executed if expression equals value2
+        break
+    default:
+        // Code executed if expression matches no cases
+}
+
+:struct:when
+
+// this condition runs onec when programe run, only onetime condition
+
+when(condition){
+    // Runs if condition is only true
+} // this is single block code if some one attach false statment shows error
+
+:struct:though
+
+//this condition only run if is false if conditon true skip this conditon codes
+though(condition){
+    //if false run
+}
+

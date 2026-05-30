@@ -1,0 +1,5 @@
+// Hello World - Basic Example
+fnc Main() {
+    show("Hello, World!")
+    return 0
+}

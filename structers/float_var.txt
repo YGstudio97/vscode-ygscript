@@ -1,0 +1,23 @@
+// Floating-point types
+float8 value    // 1 byte
+float16 value   // 2 bytes
+float32 value   // 4 bytes
+float64 value   // 8 bytes
+float80 value   // 10 bytes
+float128 value  // 16 bytes
+float256 value  // 32 bytes
+float512 value  // 64 bytes
+
+// Universal floating-point type
+float value;    // 8 bytes
+
+// Literal floating-point values
+let value = 3.141592 // float
+let value = 1.2e-6   // float
+let value = 3.14f8   // float8
+let value = 3.14f16  // float16
+let value = 3.14f32  // float32
+let value = 3.14f80  // float80
+let value = 3.14f128 // float128
+let value = 3.14f256 // float256
+let value = 3.14f512 // float512

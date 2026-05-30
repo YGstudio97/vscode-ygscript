@@ -1,0 +1,23 @@
+// Variables and Types Example
+fnc Main() {
+    // Integer variable
+    let count = 42
+    show("Count: ")
+    show(count)
+    
+    // Floating-point variable
+    let pi = 3.14159
+    show("Pi: ")
+    show(pi)
+    
+    // Boolean variable
+    let is_active = true
+    show("Active: ")
+    show(is_active)
+    
+    // String variable
+    str message = "Hello, YGScript!"
+    show(message)
+    
+    return 0
+}

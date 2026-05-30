@@ -1,0 +1,33 @@
+// Control Flow Example
+fnc Main() {
+    // If/else statement
+    let age = 18
+    
+    if (age >= 18) {
+        show("You are an adult")
+    } else {
+        show("You are a minor")
+    }
+    
+    // For loop
+    show("Counting 1 to 5:")
+    for (let i = 1; i <= 5; i++) {
+        show(i)
+    }
+    
+    // While loop
+    show("While loop:")
+    let count = 0
+    while (count < 3) {
+        show(count)
+        count = count + 1
+    }
+    
+    // Agin loop (repeat N times)
+    show("Repeat 3 times:")
+    agin(3) {
+        show("Hello!")
+    }
+    
+    return 0
+}
