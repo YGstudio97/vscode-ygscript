@@ -1,0 +1,84 @@
+{
+  "name": "ygscript",
+  "displayName": "YGscript Language Support",
+  "description": "Complete YGscript language support with syntax highlighting, file icons, and real-time error checking",
+  "version": "1.0.0",
+  "publisher": "YGstudio97",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YGstudio97/vscode-ygscript"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Themes"
+  ],
+  "keywords": [
+    "ygscript",
+    "yg",
+    "programming language",
+    "syntax highlighting",
+    "file icons"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onLanguage:ygscript",
+    "workspaceContains:**/*.yg"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ygscript",
+        "aliases": [
+          "YGScript",
+          "ygscript"
+        ],
+        "extensions": [
+          ".yg"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/ygscript-file.svg",
+          "dark": "./icons/ygscript-file.svg"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ygscript",
+        "scopeName": "source.ygscript",
+        "path": "./syntaxes/ygscript.tmLanguage.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "ygscript-icons",
+        "label": "YGScript File Icons",
+        "path": "./icons/ygscript-icon-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "ygscript.runFile",
+        "title": "Run YGScript File",
+        "category": "YGScript"
+      },
+      {
+        "command": "ygscript.checkSyntax",
+        "title": "Check Syntax",
+        "category": "YGScript"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ygscript.runFile",
+        "key": "ctrl+shift+r",
+        "when": "editorLangId == ygscript"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "name": "YGScript Icons",
+  "icons": {
+    "ygscript-icon": {
+      "description": "YGScript file icon",
+      "default": {
+        "fontPath": "./ygscript-icons.woff",
+        "fontCharacter": "\\E001"
+      }
+    }
+  },
+  "fileIcons": [
+    {
+      "name": "ygscript",
+      "fileExtensions": ["yg"],
+      "fontCharacter": "\\E001"
+    }
+  ],
+  "file": "ygscript",
+  "folder": "folder",
+  "folderExpanded": "folder-open"
+}
